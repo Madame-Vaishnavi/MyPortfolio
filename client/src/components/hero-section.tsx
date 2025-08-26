@@ -13,11 +13,11 @@ export default function HeroSection() {
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-lavender-100 via-white to-lavender-50"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-8">
+        <div className="mb-12">
           <img 
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300" 
+            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400" 
             alt="Professional headshot" 
-            className="w-32 h-32 rounded-full mx-auto shadow-2xl border-4 border-white object-cover"
+            className="w-40 h-40 rounded-full mx-auto shadow-lg border-4 border-lavender-100 object-cover hover:shadow-xl transition-shadow duration-300"
             data-testid="hero-image"
           />
         </div>

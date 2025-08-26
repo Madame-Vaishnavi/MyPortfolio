@@ -35,19 +35,14 @@ export default function AboutSection() {
               ))}
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=500" 
+              src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
               alt="Creative workspace setup" 
-              className="rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 object-cover h-64"
+              className="w-full rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 object-cover h-80"
               data-testid="about-image-1"
             />
-            <img 
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300" 
-              alt="Design process sketches" 
-              className="rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 mt-8 object-cover h-48"
-              data-testid="about-image-2"
-            />
+            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-lavender-100 rounded-2xl rotate-12 shadow-md"></div>
           </div>
         </div>
       </div>

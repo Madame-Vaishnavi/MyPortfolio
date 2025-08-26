@@ -50,12 +50,15 @@ export default function PortfolioSection() {
               className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-lavender-100"
               data-testid={`project-card-${index}`}
             >
-              <img 
-                src={project.image} 
-                alt={project.alt} 
-                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                data-testid={`project-image-${index}`}
-              />
+              <div className="relative overflow-hidden">
+                <img 
+                  src={project.image} 
+                  alt={project.alt} 
+                  className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
+                  data-testid={`project-image-${index}`}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
               <div className="p-8">
                 <div className="flex items-center justify-between mb-4">
                   <span 
