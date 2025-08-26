@@ -43,8 +43,8 @@ export default function PortfolioSection() {
             <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-003">003</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="portfolio-title">Featured Work</h2>
-          <p className="text-xl text-gray-600 max-w-3xl" data-testid="portfolio-description">
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-6" data-testid="portfolio-title">Featured Work</h2>
+          <p className="text-lg text-gray-600 max-w-3xl" data-testid="portfolio-description">
             A selection of projects that showcase my approach to solving complex design challenges
           </p>
         </div>
@@ -82,7 +82,7 @@ export default function PortfolioSection() {
                     </a>
                   </div>
                 </div>
-                <h3 className="font-display text-xl font-semibold text-gray-900 mb-3" data-testid={`project-title-${index}`}>
+                <h3 className="font-display text-lg font-semibold text-gray-900 mb-3" data-testid={`project-title-${index}`}>
                   {project.title}
                 </h3>
                 <p className="text-gray-600 mb-4" data-testid={`project-description-${index}`}>

@@ -9,18 +9,18 @@ export default function AboutSection() {
             <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-001">001</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="about-title">About Me</h2>
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-6" data-testid="about-title">About Me</h2>
         </div>
         
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h3 className="font-display text-2xl font-semibold text-gray-900 mb-6" data-testid="about-subtitle">
+            <h3 className="font-display text-xl font-semibold text-gray-900 mb-6" data-testid="about-subtitle">
               Building scalable mobile and web applications with modern technologies
             </h3>
-            <p className="text-lg text-gray-600 mb-6" data-testid="about-description-1">
+            <p className="text-base text-gray-600 mb-6" data-testid="about-description-1">
               I'm a Computer Science student specializing in AI/ML with hands-on experience in full-stack development. Currently pursuing B.Tech from KIET Group of Institutions with a CGPA of 8.1, I've worked on real-world applications serving thousands of users.
             </p>
-            <p className="text-lg text-gray-600 mb-8" data-testid="about-description-2">
+            <p className="text-base text-gray-600 mb-8" data-testid="about-description-2">
               As Core Lead at Innogeeks, I mentor 20+ students in AR/VR development and have led major tech events. I'm passionate about creating efficient, user-friendly applications and have won multiple hackathons including 1st place at HACKBLOCKS 1.0.
             </p>
             <div className="flex flex-wrap gap-3">

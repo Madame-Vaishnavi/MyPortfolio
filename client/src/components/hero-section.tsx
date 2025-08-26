@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "../assets/profile-photo.jpg";
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -15,10 +16,10 @@ export default function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-left">
-            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
+            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
               <span className="text-lavender-500">Full Stack</span> Developer
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8">
+            <p className="text-lg md:text-xl text-gray-600 mb-8">
               Full Stack Developer specializing in Flutter, Spring Boot, and scalable mobile applications. Passionate about creating innovative solutions that enhance user experiences.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -42,7 +43,7 @@ export default function HeroSection() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <img 
-                src="@assets/WhatsApp Image 2025-08-23 at 23.31.37_affb4260_1756198058108.jpg" 
+                src={profilePhoto} 
                 alt="Vaishnavi Singh - Professional headshot" 
                 className="w-80 h-96 rounded-3xl shadow-2xl border-4 border-white object-cover hover:shadow-3xl transition-all duration-300"
                 data-testid="hero-image"

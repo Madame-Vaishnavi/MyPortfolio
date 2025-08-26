@@ -78,8 +78,8 @@ export default function ContactSection() {
             <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-007">007</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="contact-title">Let's Connect</h2>
-          <p className="text-xl text-gray-600 max-w-3xl" data-testid="contact-description">
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-6" data-testid="contact-title">Let's Connect</h2>
+          <p className="text-lg text-gray-600 max-w-3xl" data-testid="contact-description">
             Ready to bring your next project to life? Let's discuss how we can work together.
           </p>
         </div>
@@ -93,7 +93,7 @@ export default function ContactSection() {
                     <info.icon className="text-lavender-500 h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="font-display text-lg font-semibold text-gray-900 mb-1" data-testid={`contact-info-title-${index}`}>
+                    <h3 className="font-display text-base font-semibold text-gray-900 mb-1" data-testid={`contact-info-title-${index}`}>
                       {info.title}
                     </h3>
                     <p className="text-gray-600" data-testid={`contact-info-content-${index}`}>
@@ -105,7 +105,7 @@ export default function ContactSection() {
             </div>
 
             <div className="mt-12">
-              <h3 className="font-display text-lg font-semibold text-gray-900 mb-6" data-testid="social-title">Follow Me</h3>
+              <h3 className="font-display text-base font-semibold text-gray-900 mb-6" data-testid="social-title">Follow Me</h3>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (
                   <a 
