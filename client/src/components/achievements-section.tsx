@@ -33,7 +33,7 @@ export default function AchievementsSection() {
             <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-006">006</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
-          <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-6" data-testid="achievements-title">Achievements & Certifications</h2>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="achievements-title">Achievements & Certifications</h2>
           <p className="text-lg text-gray-600 max-w-3xl" data-testid="achievements-description">
             Recognition for technical excellence and continuous learning
           </p>
@@ -48,7 +48,7 @@ export default function AchievementsSection() {
             >
               <div className="mb-6">
                 <achievement.icon className={`${achievement.color} text-4xl mb-4 h-10 w-10 group-hover:scale-110 transition-transform duration-300`} data-testid={`achievement-icon-${index}`} />
-                <h3 className="font-display text-lg font-semibold text-gray-900 mb-2" data-testid={`achievement-title-${index}`}>
+                <h3 className="font-display text-xl font-semibold text-gray-900 mb-2" data-testid={`achievement-title-${index}`}>
                   {achievement.title}
                 </h3>
                 <p className="text-lavender-600 font-medium text-sm mb-3" data-testid={`achievement-organization-${index}`}>

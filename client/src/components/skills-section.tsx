@@ -30,7 +30,7 @@ export default function SkillsSection() {
             <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-002">002</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
-          <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-6" data-testid="skills-title">Skills & Expertise</h2>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="skills-title">Skills & Expertise</h2>
           <p className="text-lg text-gray-600 max-w-3xl" data-testid="skills-description">
             A comprehensive toolkit honed through years of practice and continuous learning
           </p>

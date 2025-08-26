@@ -9,12 +9,12 @@ export default function AboutSection() {
             <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-001">001</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
-          <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-6" data-testid="about-title">About Me</h2>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="about-title">About Me</h2>
         </div>
         
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h3 className="font-display text-xl font-semibold text-gray-900 mb-6" data-testid="about-subtitle">
+            <h3 className="font-display text-2xl font-semibold text-gray-900 mb-6" data-testid="about-subtitle">
               Building scalable mobile and web applications with modern technologies
             </h3>
             <p className="text-base text-gray-600 mb-6" data-testid="about-description-1">

@@ -51,7 +51,7 @@ export default function VoluntarySection() {
             <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-005">005</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
-          <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-6" data-testid="voluntary-title">Voluntary Experience</h2>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="voluntary-title">Voluntary Experience</h2>
           <p className="text-lg text-gray-600 max-w-3xl" data-testid="voluntary-description">
             Leadership roles and community contributions through organizing tech events and mentoring
           </p>
@@ -69,7 +69,7 @@ export default function VoluntarySection() {
                 <div className="flex-1">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <div>
-                      <h3 className="font-display text-xl font-semibold text-gray-900 mb-1" data-testid={`voluntary-role-${index}`}>
+                      <h3 className="font-display text-2xl font-semibold text-gray-900 mb-1" data-testid={`voluntary-role-${index}`}>
                         {exp.role}
                       </h3>
                       <p className="text-lavender-600 font-medium" data-testid={`voluntary-organization-${index}`}>

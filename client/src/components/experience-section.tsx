@@ -39,7 +39,7 @@ export default function ExperienceSection() {
             <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-004">004</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
-          <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-6" data-testid="experience-title">Experience</h2>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="experience-title">Experience</h2>
           <p className="text-lg text-gray-600 max-w-3xl" data-testid="experience-description">
             Building expertise through diverse roles and challenging projects
           </p>
@@ -62,7 +62,7 @@ export default function ExperienceSection() {
               <div className="md:w-3/4">
                 <div className="bg-white rounded-2xl p-8 shadow-sm border border-lavender-100 group-hover:shadow-lg transition-all duration-300">
                   <div className="flex items-center gap-3 mb-3">
-                    <h3 className="font-display text-xl font-semibold text-gray-900" data-testid={`experience-company-${index}`}>
+                    <h3 className="font-display text-2xl font-semibold text-gray-900" data-testid={`experience-company-${index}`}>
                       {exp.company}
                     </h3>
                     <div className="flex items-center gap-2">
