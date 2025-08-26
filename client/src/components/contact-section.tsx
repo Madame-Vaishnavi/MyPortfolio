@@ -50,25 +50,24 @@ export default function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      content: "hello@portfolio.com"
+      content: "vaishnavi.singh.260104@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone", 
-      content: "+1 (555) 123-4567"
+      content: "+91 9794801617"
     },
     {
       icon: MapPin,
       title: "Location",
-      content: "San Francisco, CA"
+      content: "Delhi-NCR, India"
     }
   ];
 
   const socialLinks = [
     { name: "LinkedIn", href: "#", icon: "fab fa-linkedin" },
-    { name: "Twitter", href: "#", icon: "fab fa-twitter" },
-    { name: "Dribbble", href: "#", icon: "fab fa-dribbble" },
-    { name: "GitHub", href: "#", icon: "fab fa-github" }
+    { name: "GitHub", href: "#", icon: "fab fa-github" },
+    { name: "Email", href: "mailto:vaishnavi.singh.260104@gmail.com", icon: "fas fa-envelope" }
   ];
 
   return (
@@ -76,7 +75,7 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <div className="flex items-center mb-4">
-            <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-005">005</span>
+            <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-006">006</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="contact-title">Let's Connect</h2>

@@ -1,5 +1,5 @@
 export default function AboutSection() {
-  const tags = ["UI/UX Design", "Frontend Development", "Brand Strategy"];
+  const tags = ["Flutter Development", "Spring Boot", "Full Stack Development", "Mobile Apps", "Backend APIs"];
 
   return (
     <section id="about" className="py-20 bg-white">
@@ -15,13 +15,13 @@ export default function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h3 className="font-display text-2xl font-semibold text-gray-900 mb-6" data-testid="about-subtitle">
-              Building digital experiences with purpose and passion
+              Building scalable mobile and web applications with modern technologies
             </h3>
             <p className="text-lg text-gray-600 mb-6" data-testid="about-description-1">
-              With over 5 years of experience in digital design and development, I specialize in creating user-centered solutions that solve real problems. My approach combines strategic thinking with creative execution to deliver exceptional results.
+              I'm a Computer Science student specializing in AI/ML with hands-on experience in full-stack development. Currently pursuing B.Tech from KIET Group of Institutions with a CGPA of 8.1, I've worked on real-world applications serving thousands of users.
             </p>
             <p className="text-lg text-gray-600 mb-8" data-testid="about-description-2">
-              I believe in the power of collaboration and continuous learning. When I'm not designing, you'll find me exploring new technologies, mentoring junior designers, or contributing to open-source projects.
+              As Core Lead at Innogeeks, I mentor 20+ students in AR/VR development and have led major tech events. I'm passionate about creating efficient, user-friendly applications and have won multiple hackathons including 1st place at HACKBLOCKS 1.0.
             </p>
             <div className="flex flex-wrap gap-3">
               {tags.map((tag, index) => (

@@ -4,28 +4,28 @@ import { Button } from "@/components/ui/button";
 export default function PortfolioSection() {
   const projects = [
     {
-      image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "E-commerce Platform Design",
-      category: "UI/UX Design",
-      title: "E-commerce Platform",
-      description: "A complete redesign of an e-commerce platform focusing on user experience and conversion optimization.",
-      technologies: ["React", "Figma", "User Research"]
-    },
-    {
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Mobile App Interface",
+      image: "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "FOMO Fix Event Booking App",
       category: "Mobile App",
-      title: "Wellness App",
-      description: "Mobile app design for a mindfulness platform with focus on user engagement and daily habits.",
-      technologies: ["Flutter", "Sketch", "Prototyping"]
+      title: "FOMO Fix - Event Booking App",
+      description: "Comprehensive event booking mobile application with 95% booking success rate, built using Flutter and Spring Boot microservices.",
+      technologies: ["Flutter", "Spring Boot", "Apache Kafka"]
     },
     {
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "Brand Identity Design",
-      category: "Branding",
-      title: "Brand Identity",
-      description: "Complete brand identity design for a tech startup including logo, guidelines, and digital assets.",
-      technologies: ["Illustrator", "Brand Strategy", "Guidelines"]
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "SpeedSe Logistics App",
+      category: "Full Stack",
+      title: "SpeedSe Logistics - Truck Booking",
+      description: "Cross-platform truck booking app serving 500+ concurrent users with real-time geolocation and 40% improved API response time.",
+      technologies: ["Flutter", "Node.js", "Firebase"]
+    },
+    {
+      image: "https://images.unsplash.com/photo-1422565096762-bdb997a56a84?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "Pet Adoption System",
+      category: "Backend",
+      title: "Pet Adoption System",
+      description: "Spring Boot-based pet adoption platform with role-based authentication, boosting adoption efficiency by 40%.",
+      technologies: ["Spring Boot", "MySQL", "JPA"]
     }
   ];
 

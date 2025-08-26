@@ -3,30 +3,30 @@ import { Palette, Code, Lightbulb } from "lucide-react";
 export default function SkillsSection() {
   const skills = [
     {
-      icon: Palette,
-      title: "UI/UX Design",
-      description: "Creating intuitive and beautiful user experiences",
-      tools: [
-        { name: "Figma", percentage: 95 },
-        { name: "Adobe XD", percentage: 90 }
-      ]
-    },
-    {
       icon: Code,
-      title: "Frontend Development", 
-      description: "Building responsive and interactive interfaces",
+      title: "Mobile Development",
+      description: "Cross-platform mobile apps with Flutter and Dart",
       tools: [
-        { name: "React", percentage: 88 },
-        { name: "JavaScript", percentage: 85 }
+        { name: "Flutter", percentage: 95 },
+        { name: "Dart", percentage: 90 }
       ]
     },
     {
       icon: Lightbulb,
-      title: "Brand Strategy",
-      description: "Developing cohesive brand identities",
+      title: "Backend Development", 
+      description: "Scalable APIs and microservices architecture",
       tools: [
-        { name: "Brand Development", percentage: 92 },
-        { name: "Visual Identity", percentage: 90 }
+        { name: "Spring Boot", percentage: 88 },
+        { name: "Node.js", percentage: 85 }
+      ]
+    },
+    {
+      icon: Palette,
+      title: "Database & Cloud",
+      description: "Database optimization and cloud integration",
+      tools: [
+        { name: "MySQL", percentage: 85 },
+        { name: "Firebase", percentage: 90 }
       ]
     }
   ];

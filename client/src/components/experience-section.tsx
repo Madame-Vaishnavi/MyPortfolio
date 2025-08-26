@@ -3,27 +3,40 @@ import { Check } from "lucide-react";
 export default function ExperienceSection() {
   const experiences = [
     {
-      period: "2022 - Present",
-      role: "Senior UX Designer",
-      company: "TechFlow Solutions",
-      description: "Leading design initiatives for enterprise software solutions, focusing on user experience optimization and design system development. Collaborating with cross-functional teams to deliver scalable design solutions.",
+      period: "Apr 2025 - Present",
+      role: "Full Stack Developer",
+      company: "SpeedSe Logistics",
+      description: "Developing and maintaining a cross-platform truck booking mobile app using Flutter and Dart for Android and iOS, serving 500+ concurrent users with optimized backend APIs.",
       achievements: [
-        "Increased user engagement by 45% through redesigned dashboard interface",
-        "Built comprehensive design system used across 5+ product teams",
-        "Mentored 3 junior designers in UX best practices and design thinking"
+        "Reduced API response time by 40% through Node.js and Express.js optimization",
+        "Implemented real-time geolocation improving logistics accuracy by 25%",
+        "Built WebSocket integration for real-time notifications using Firebase"
       ],
-      skills: ["Design Systems", "User Research", "Team Leadership"]
+      skills: ["Flutter", "Node.js", "Firebase", "Google Maps API"]
     },
     {
-      period: "2020 - 2022",
-      role: "UX Designer",
-      company: "Digital Innovations Inc",
-      description: "Focused on mobile app design and user interface development for consumer-facing applications. Specialized in creating intuitive user experiences for diverse user demographics.",
+      period: "Dec 2024 - Feb 2025",
+      role: "Flutter Developer",
+      company: "Bharat Yaatri",
+      description: "Engineered and deployed a cross-platform taxi service app using Flutter, Dart, and Firebase for Android and iOS, supporting thousands of concurrent users.",
       achievements: [
-        "Designed mobile app with 4.8-star rating and 100K+ downloads",
-        "Conducted user testing sessions that improved conversion by 30%"
+        "Reduced user interaction delays by 50% through optimized Flutter implementation",
+        "Achieved sub-100ms response times with Node.js backend integration",
+        "Decreased crash rates by 30% through improved state management"
       ],
-      skills: ["Mobile Design", "Prototyping", "User Testing"]
+      skills: ["Flutter", "Dart", "Firebase", "RESTful APIs"]
+    },
+    {
+      period: "Jan 2022 - Present",
+      role: "Core Lead",
+      company: "Innogeeks",
+      description: "Leading organizational efforts and mentoring students in AR/VR development, organizing national-level hackathons and tech events with 500+ participants.",
+      achievements: [
+        "Mentored 20+ students in AR/VR development using Unity3D and Vuforia",
+        "Organized Innogeeks Winter of Code 2.0 & 3.0 and Innohacks 3.0",
+        "Improved project execution efficiency by 30% through effective guidance"
+      ],
+      skills: ["Team Leadership", "Unity3D", "Vuforia", "Event Management"]
     }
   ];
 

@@ -22,10 +22,10 @@ export default function HeroSection() {
           />
         </div>
         <h1 className="font-display text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-          Creative <span className="text-lavender-500">Professional</span>
+          Vaishnavi <span className="text-lavender-500">Singh</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-          Crafting digital experiences that inspire and engage. Specializing in modern design solutions that bridge creativity and functionality.
+          Full Stack Developer specializing in Flutter, Spring Boot, and scalable mobile applications. Passionate about creating innovative solutions that enhance user experiences.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 

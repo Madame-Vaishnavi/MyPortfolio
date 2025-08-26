@@ -8,7 +8,7 @@ export default function Navigation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["hero", "about", "skills", "portfolio", "experience", "contact"];
+      const sections = ["hero", "about", "skills", "portfolio", "experience", "achievements", "contact"];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -40,6 +40,7 @@ export default function Navigation() {
     { id: "skills", label: "Skills" },
     { id: "portfolio", label: "Work" },
     { id: "experience", label: "Experience" },
+    { id: "achievements", label: "Achievements" },
     { id: "contact", label: "Contact" },
   ];
 
@@ -52,7 +53,7 @@ export default function Navigation() {
             onClick={() => scrollToSection("hero")}
             data-testid="logo"
           >
-            Portfolio
+            Vaishnavi Singh
           </div>
           
           {/* Desktop Navigation */}
