@@ -77,28 +77,32 @@ export default function ExperienceSection() {
                     <h3 className="font-display text-2xl font-semibold text-gray-900" data-testid={`experience-company-${index}`}>
                       {exp.company}
                     </h3>
-                    {exp.companyLink && (
-                      <a 
-                        href={exp.companyLink} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-lavender-500 hover:text-lavender-600 transition-colors"
-                        data-testid={`experience-company-link-${index}`}
-                      >
-                        <ExternalLink className="h-5 w-5" />
-                      </a>
-                    )}
-                    {exp.appStoreLink && (
-                      <a 
-                        href={exp.appStoreLink} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-lavender-500 hover:text-lavender-600 transition-colors"
-                        data-testid={`experience-appstore-link-${index}`}
-                      >
-                        <ExternalLink className="h-5 w-5" />
-                      </a>
-                    )}
+                    <div className="flex items-center gap-2">
+                      {exp.companyLink && (
+                        <a 
+                          href={exp.companyLink} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-1 text-lavender-500 hover:text-lavender-600 transition-colors text-sm"
+                          data-testid={`experience-company-link-${index}`}
+                        >
+                          <ExternalLink className="h-4 w-4" />
+                          Play Store
+                        </a>
+                      )}
+                      {exp.appStoreLink && (
+                        <a 
+                          href={exp.appStoreLink} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-1 text-lavender-500 hover:text-lavender-600 transition-colors text-sm"
+                          data-testid={`experience-appstore-link-${index}`}
+                        >
+                          <ExternalLink className="h-4 w-4" />
+                          App Store
+                        </a>
+                      )}
+                    </div>
                   </div>
                   <p className="text-gray-600 mb-4" data-testid={`experience-description-${index}`}>
                     {exp.description}
