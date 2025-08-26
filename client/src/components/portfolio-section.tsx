@@ -7,25 +7,31 @@ export default function PortfolioSection() {
       image: "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
       alt: "FOMO Fix Event Booking App",
       category: "Mobile App",
-      title: "FOMO Fix - Event Booking App",
-      description: "Comprehensive event booking mobile application with 95% booking success rate, built using Flutter and Spring Boot microservices.",
-      technologies: ["Flutter", "Spring Boot", "Apache Kafka"]
-    },
-    {
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      alt: "SpeedSe Logistics App",
-      category: "Full Stack",
-      title: "SpeedSe Logistics - Truck Booking",
-      description: "Cross-platform truck booking app serving 500+ concurrent users with real-time geolocation and 40% improved API response time.",
-      technologies: ["Flutter", "Node.js", "Firebase"]
+      title: "FOMO Fix - Event Booking Mobile App",
+      description: "Comprehensive event booking mobile application with 95% booking success rate. Built microservices-based backend with Spring Boot and Apache Kafka for event-driven messaging achieving 99.2% system uptime.",
+      technologies: ["Flutter", "Spring Boot", "Apache Kafka", "SMTP"],
+      link: "#",
+      period: "Jun 2025 – Aug 2025"
     },
     {
       image: "https://images.unsplash.com/photo-1422565096762-bdb997a56a84?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
       alt: "Pet Adoption System",
       category: "Backend",
-      title: "Pet Adoption System",
-      description: "Spring Boot-based pet adoption platform with role-based authentication, boosting adoption efficiency by 40%.",
-      technologies: ["Spring Boot", "MySQL", "JPA"]
+      title: "Pet Adoption System – Spring Boot App",
+      description: "Architected a Spring Boot-based pet adoption platform with role-based authentication, boosting adoption efficiency by 40%. Streamlined database performance using JPA, Hibernate, and MySQL.",
+      technologies: ["Spring Boot", "MySQL", "JPA", "Hibernate"],
+      link: "#",
+      period: "Jan 2025 – Mar 2025"
+    },
+    {
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      alt: "Job Listing Platform",
+      category: "Full Stack",
+      title: "Job Listing Platform",
+      description: "Engineered a scalable job listing platform with Spring Boot and MongoDB, cutting job search time by 35%. Enhanced system performance by 25% through efficient indexing, caching, and RESTful APIs.",
+      technologies: ["Spring Boot", "MongoDB", "RESTful APIs", "Caching"],
+      link: "#",
+      period: "Nov 2024 – Jan 2025"
     }
   ];
 
@@ -67,7 +73,14 @@ export default function PortfolioSection() {
                   >
                     {project.category}
                   </span>
-                  <ExternalLink className="text-lavender-400 group-hover:text-lavender-500 transition-colors h-5 w-5" />
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs text-gray-500" data-testid={`project-period-${index}`}>
+                      {project.period}
+                    </span>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="text-lavender-400 hover:text-lavender-500 transition-colors h-5 w-5" />
+                    </a>
+                  </div>
                 </div>
                 <h3 className="font-display text-xl font-semibold text-gray-900 mb-3" data-testid={`project-title-${index}`}>
                   {project.title}

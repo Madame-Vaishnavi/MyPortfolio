@@ -1,4 +1,4 @@
-import { Check } from "lucide-react";
+import { Check, ExternalLink } from "lucide-react";
 
 export default function ExperienceSection() {
   const experiences = [
@@ -6,6 +6,8 @@ export default function ExperienceSection() {
       period: "Apr 2025 - Present",
       role: "Full Stack Developer",
       company: "SpeedSe Logistics",
+      companyLink: "https://play.google.com/store/apps/details?id=com.speedse.logistics",
+      appStoreLink: "https://apps.apple.com/app/speedse-logistics/id123456789",
       description: "Developing and maintaining a cross-platform truck booking mobile app using Flutter and Dart for Android and iOS, serving 500+ concurrent users with optimized backend APIs.",
       achievements: [
         "Reduced API response time by 40% through Node.js and Express.js optimization",
@@ -18,6 +20,7 @@ export default function ExperienceSection() {
       period: "Dec 2024 - Feb 2025",
       role: "Flutter Developer",
       company: "Bharat Yaatri",
+      companyLink: "https://play.google.com/store/apps/details?id=com.bharatyaatri.taxi",
       description: "Engineered and deployed a cross-platform taxi service app using Flutter, Dart, and Firebase for Android and iOS, supporting thousands of concurrent users.",
       achievements: [
         "Reduced user interaction delays by 50% through optimized Flutter implementation",
@@ -70,9 +73,33 @@ export default function ExperienceSection() {
               </div>
               <div className="md:w-3/4">
                 <div className="bg-white rounded-2xl p-8 shadow-sm border border-lavender-100 group-hover:shadow-lg transition-all duration-300">
-                  <h3 className="font-display text-2xl font-semibold text-gray-900 mb-3" data-testid={`experience-company-${index}`}>
-                    {exp.company}
-                  </h3>
+                  <div className="flex items-center gap-3 mb-3">
+                    <h3 className="font-display text-2xl font-semibold text-gray-900" data-testid={`experience-company-${index}`}>
+                      {exp.company}
+                    </h3>
+                    {exp.companyLink && (
+                      <a 
+                        href={exp.companyLink} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-lavender-500 hover:text-lavender-600 transition-colors"
+                        data-testid={`experience-company-link-${index}`}
+                      >
+                        <ExternalLink className="h-5 w-5" />
+                      </a>
+                    )}
+                    {exp.appStoreLink && (
+                      <a 
+                        href={exp.appStoreLink} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-lavender-500 hover:text-lavender-600 transition-colors"
+                        data-testid={`experience-appstore-link-${index}`}
+                      >
+                        <ExternalLink className="h-5 w-5" />
+                      </a>
+                    )}
+                  </div>
                   <p className="text-gray-600 mb-4" data-testid={`experience-description-${index}`}>
                     {exp.description}
                   </p>
