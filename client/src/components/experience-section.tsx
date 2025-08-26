@@ -28,18 +28,6 @@ export default function ExperienceSection() {
         "Decreased crash rates by 30% through improved state management"
       ],
       skills: ["Flutter", "Dart", "Firebase", "RESTful APIs"]
-    },
-    {
-      period: "Jan 2022 - Present",
-      role: "Core Lead",
-      company: "Innogeeks",
-      description: "Leading organizational efforts and mentoring students in AR/VR development, organizing national-level hackathons and tech events with 500+ participants.",
-      achievements: [
-        "Mentored 20+ students in AR/VR development using Unity3D and Vuforia",
-        "Organized Innogeeks Winter of Code 2.0 & 3.0 and Innohacks 3.0",
-        "Improved project execution efficiency by 30% through effective guidance"
-      ],
-      skills: ["Team Leadership", "Unity3D", "Vuforia", "Event Management"]
     }
   ];
 

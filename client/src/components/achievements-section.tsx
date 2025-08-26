@@ -30,7 +30,7 @@ export default function AchievementsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <div className="flex items-center mb-4">
-            <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-005">005</span>
+            <span className="text-lavender-400 font-display text-sm font-medium mr-4" data-testid="section-number-006">006</span>
             <div className="h-px bg-lavender-200 flex-1"></div>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-testid="achievements-title">Achievements & Certifications</h2>
