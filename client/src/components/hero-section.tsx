@@ -12,37 +12,45 @@ export default function HeroSection() {
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-lavender-100 via-white to-lavender-50"></div>
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-12">
-          <img 
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400" 
-            alt="Professional headshot" 
-            className="w-40 h-40 rounded-full mx-auto shadow-lg border-4 border-lavender-100 object-cover hover:shadow-xl transition-shadow duration-300"
-            data-testid="hero-image"
-          />
-        </div>
-        <h1 className="font-display text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-          Vaishnavi <span className="text-lavender-500">Singh</span>
-        </h1>
-        <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-          Full Stack Developer specializing in Flutter, Spring Boot, and scalable mobile applications. Passionate about creating innovative solutions that enhance user experiences.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button 
-            onClick={() => scrollToSection("portfolio")}
-            className="bg-lavender-500 text-white px-8 py-4 rounded-lg hover:bg-lavender-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-            data-testid="button-view-work"
-          >
-            View My Work
-          </Button>
-          <Button 
-            variant="outline"
-            onClick={() => scrollToSection("contact")}
-            className="border-2 border-lavender-500 text-lavender-500 px-8 py-4 rounded-lg hover:bg-lavender-50 transition-all duration-200"
-            data-testid="button-contact"
-          >
-            Get In Touch
-          </Button>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="text-left">
+            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
+              Vaishnavi <span className="text-lavender-500">Singh</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-gray-600 mb-8">
+              Full Stack Developer specializing in Flutter, Spring Boot, and scalable mobile applications. Passionate about creating innovative solutions that enhance user experiences.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button 
+                onClick={() => scrollToSection("portfolio")}
+                className="bg-lavender-500 text-white px-8 py-4 rounded-lg hover:bg-lavender-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                data-testid="button-view-work"
+              >
+                View My Work
+              </Button>
+              <Button 
+                variant="outline"
+                onClick={() => scrollToSection("contact")}
+                className="border-2 border-lavender-500 text-lavender-500 px-8 py-4 rounded-lg hover:bg-lavender-50 transition-all duration-200"
+                data-testid="button-contact"
+              >
+                Get In Touch
+              </Button>
+            </div>
+          </div>
+          <div className="flex justify-center lg:justify-end">
+            <div className="relative">
+              <img 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600" 
+                alt="Professional headshot" 
+                className="w-80 h-96 rounded-3xl shadow-2xl border-4 border-white object-cover hover:shadow-3xl transition-all duration-300"
+                data-testid="hero-image"
+              />
+              <div className="absolute -top-6 -right-6 w-24 h-24 bg-lavender-200 rounded-2xl rotate-12 -z-10"></div>
+              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-lavender-100 rounded-full -z-10"></div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
