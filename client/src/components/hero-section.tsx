@@ -11,7 +11,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 md:pt-24 lg:pt-28 pb-16 md:pb-20 lg:pb-24">
       <div className="absolute inset-0 bg-gradient-to-br from-lavender-100 via-white to-lavender-50"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -45,7 +45,7 @@ export default function HeroSection() {
               <img 
                 src={profilePhoto} 
                 alt="Vaishnavi Singh - Professional headshot" 
-                className="w-80 h-96 rounded-3xl shadow-2xl border-4 border-white object-cover hover:shadow-3xl transition-all duration-300"
+                className="w-96 h-[28rem] md:w-[26rem] md:h-[32rem] lg:w-[30rem] lg:h-[36rem] rounded-3xl shadow-2xl border-4 border-white object-cover hover:shadow-3xl transition-all duration-300"
                 data-testid="hero-image"
               />
               <div className="absolute -top-6 -right-6 w-24 h-24 bg-lavender-200 rounded-2xl rotate-12 -z-10"></div>
