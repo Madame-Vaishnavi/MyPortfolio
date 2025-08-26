@@ -6,28 +6,19 @@ export default function SkillsSection() {
       icon: Code,
       title: "Mobile Development",
       description: "Cross-platform mobile apps with Flutter and Dart",
-      tools: [
-        { name: "Flutter", percentage: 95 },
-        { name: "Dart", percentage: 90 }
-      ]
+      tools: ["Flutter", "Dart", "Android", "iOS"]
     },
     {
       icon: Lightbulb,
       title: "Backend Development", 
       description: "Scalable APIs and microservices architecture",
-      tools: [
-        { name: "Spring Boot", percentage: 88 },
-        { name: "Node.js", percentage: 85 }
-      ]
+      tools: ["Spring Boot", "Node.js", "Express.js", "RESTful APIs"]
     },
     {
       icon: Palette,
       title: "Database & Cloud",
       description: "Database optimization and cloud integration",
-      tools: [
-        { name: "MySQL", percentage: 85 },
-        { name: "Firebase", percentage: 90 }
-      ]
+      tools: ["MySQL", "PostgreSQL", "MongoDB", "Supabase", "Firebase"]
     }
   ];
 
@@ -61,25 +52,15 @@ export default function SkillsSection() {
                   {skill.description}
                 </p>
               </div>
-              <div className="space-y-3">
+              <div className="flex flex-wrap gap-2">
                 {skill.tools.map((tool, toolIndex) => (
-                  <div key={toolIndex}>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-sm font-medium text-gray-700" data-testid={`tool-name-${index}-${toolIndex}`}>
-                        {tool.name}
-                      </span>
-                      <span className="text-sm text-lavender-500" data-testid={`tool-percentage-${index}-${toolIndex}`}>
-                        {tool.percentage}%
-                      </span>
-                    </div>
-                    <div className="w-full bg-lavender-100 rounded-full h-2">
-                      <div 
-                        className="bg-lavender-500 h-2 rounded-full transition-all duration-500"
-                        style={{ width: `${tool.percentage}%` }}
-                        data-testid={`progress-bar-${index}-${toolIndex}`}
-                      ></div>
-                    </div>
-                  </div>
+                  <span 
+                    key={toolIndex}
+                    className="bg-lavender-100 text-lavender-700 px-3 py-1 rounded-full text-sm font-medium"
+                    data-testid={`tool-tag-${index}-${toolIndex}`}
+                  >
+                    {tool}
+                  </span>
                 ))}
               </div>
             </div>
