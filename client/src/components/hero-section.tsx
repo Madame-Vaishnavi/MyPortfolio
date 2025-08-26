@@ -42,8 +42,8 @@ export default function HeroSection() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600" 
-                alt="Professional headshot" 
+                src="@assets/WhatsApp Image 2025-08-23 at 23.31.37_affb4260_1756198058108.jpg" 
+                alt="Vaishnavi Singh - Professional headshot" 
                 className="w-80 h-96 rounded-3xl shadow-2xl border-4 border-white object-cover hover:shadow-3xl transition-all duration-300"
                 data-testid="hero-image"
               />
