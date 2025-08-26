@@ -18,9 +18,6 @@ export default function HeroSection() {
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
               <span className="text-lavender-500">Full Stack</span> Developer
             </h1>
-            <div className="text-2xl md:text-3xl font-medium text-gray-700 mb-6">
-              Flutter Developer • Spring Boot Expert • Mobile App Architect
-            </div>
             <p className="text-xl md:text-2xl text-gray-600 mb-8">
               Full Stack Developer specializing in Flutter, Spring Boot, and scalable mobile applications. Passionate about creating innovative solutions that enhance user experiences.
             </p>
